@@ -19,7 +19,11 @@ class ImagePredictor:
         Load trained AI model
         """
 
-        self.model = load_model(model_path)
+        self.model = load_model(
+            model_path,
+            compile=False
+        )
+
         self.class_names = class_names
 
         print("✅ Food Classification Model Loaded Successfully!")
