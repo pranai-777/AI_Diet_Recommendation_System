@@ -211,7 +211,7 @@ PROJECT_PATH,
 
 "models",
 
-"food_classifier_final.keras"
+"food_classifier.keras"
 
 )
 
