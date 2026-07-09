@@ -54,7 +54,42 @@ st.set_page_config(
 st.markdown("""
 
 <style>
+/* Force dark text for light cards */
+.card,
+.recipe-card,
+.nutrition-card {
+    color: #111827 !important;
+}
 
+/* All headings inside cards */
+.card h1,
+.card h2,
+.card h3,
+.card h4,
+.recipe-card h1,
+.recipe-card h2,
+.recipe-card h3,
+.nutrition-card h1,
+.nutrition-card h2,
+.nutrition-card h3{
+    color:#111827 !important;
+}
+
+/* Paragraphs */
+.card p,
+.recipe-card p,
+.nutrition-card p{
+    color:#374151 !important;
+}
+
+/* Keep white text only on gradient cards */
+.gradient-card,
+.gradient-card h1,
+.gradient-card h2,
+.gradient-card h3,
+.gradient-card p{
+    color:white !important;
+}
 
 body{
     color:#111827;
