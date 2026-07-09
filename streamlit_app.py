@@ -625,21 +625,21 @@ box-shadow:0 8px 25px rgba(0,0,0,.18);
 # Download Report
 # ==========================================================
 
-pdf_path = create_pdf(
-    report,
-    prediction
-)
+      pdf_path = create_pdf(
+      report,
+      prediction
+     )
 
-with open(pdf_path, "rb") as pdf_file:
+      with open(pdf_path, "rb") as pdf_file:
 
-    st.download_button(
+         st.download_button(
 
-        label="📄 Download AI Diet Report",
+              label="📄 Download AI Diet Report",
 
-        data=pdf_file,
+            data=pdf_file,
 
-        file_name="AI_Diet_Report.pdf",
+            file_name="AI_Diet_Report.pdf",
 
-        mime="application/pdf"
+            mime="application/pdf"
 
     )
