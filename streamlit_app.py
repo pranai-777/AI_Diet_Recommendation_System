@@ -55,6 +55,19 @@ st.markdown("""
 
 <style>
 
+
+body{
+    color:#111827;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:#111827;
+}
+
+p{
+    color:#374151;
+}
+ 
 #MainMenu{
 visibility:hidden;
 }
