@@ -625,7 +625,7 @@ box-shadow:0 8px 25px rgba(0,0,0,.18);
 # Download Report
 # ==========================================================
 
-      pdf_path = create_pdf(
+    pdf_path = create_pdf(
       report,
       prediction
      )
