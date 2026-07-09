@@ -630,7 +630,7 @@ box-shadow:0 8px 25px rgba(0,0,0,.18);
       prediction
      )
 
-      with open(pdf_path, "rb") as pdf_file:
+    with open(pdf_path, "rb") as pdf_file:
 
          st.download_button(
 
