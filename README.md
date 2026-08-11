@@ -168,6 +168,8 @@ screenshots/nutrition.png
 - Cloud deployment
 
 ---
+**#lIVE APPLICATION**
+**LINK : https://pranai-7.streamlit.app/**
 
 # 👨‍💻 Developer
 
